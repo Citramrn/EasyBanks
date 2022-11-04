@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-  .mobile-menu {
-    @apply bg-white text-uncommitted-dark-blue flex flex-col text-center mx-5 my-20 py-4 rounded mt-16;
-  }
-}
