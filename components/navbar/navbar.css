@@ -13,8 +13,12 @@
     );
   }
 
+  .mobile-menu {
+    @apply bg-white text-uncommitted-dark-blue flex flex-col text-center mx-5 my-20 py-4 rounded mt-16;
+  }
+
   .header-section {
-    @apply fixed z-50  bg-white  px-2 sm:px-7 py-5 w-full top-0 left-0 bg;
+    @apply fixed z-50  bg-white  px-2 sm:px-7 py-5 w-full top-0 left-0;
   }
 
   .container-navbar {

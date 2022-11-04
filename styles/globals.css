@@ -1,13 +1,13 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import "/components/navbar/navbar.css";
-/* @import "/components/jumbotron/hero.css";
 @import "/components/navbar/toggle.css";
+@import "/components/jumbotron/hero.css";
 @import "/components/footer/footer.css";
 @import "/components/choose/grid.css";
-@import "/components/articles/article.css"; */
+@import "/components/articles/article.css";
 
 @layer components {
   .btn-gradient {
@@ -19,4 +19,13 @@
       to(hsl(192, 70%, 51%))
     );
   }
-}
+} */
+
+@import "../components/navbar/navbar.css";
+@import "../components/jumbotron/hero.css";
+@import "../components/footer/footer.css";
+@import "../components/choose/grid.css";
+@import "../components/articles/article.css";
+/* @import "../components/Molecules/form-login.css";
+@import "../components/Organisms/Footers/footer.css";
+@import "../components/Organisms/Prototype/btn-login.css"; */
