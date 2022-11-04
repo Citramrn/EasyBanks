@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-gradient {
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(hsl(136, 65%, 51%)),
+      to(hsl(192, 70%, 51%))
+    );
+  }
+
+  .section-grid {
+    @apply py-16 md:-mt-12 lg:-mt-60 lg:py-24 xl:py-32  bg-white-blue mb-9;
+  }
+
+  .easy-tag {
+    @apply text-3xl tracking-wide font-medium text-uncommitted-dark-blue text-center md:text-left lg:text-4xl;
+  }
+
+  .paragraph-tag {
+    @apply text-uncommitted-light-grayish-blue text-sm text-center mt-4 leading-6 tracking-wide md:text-left md:max-w-xl md:pr-6 lg:mt-8 lg:text-base;
+  }
+
+  .grid-tag {
+    @apply grid place-content-center mt-14 gap-8 px-3 md:px-6 mx-auto md:grid-cols-2 lg:grid-cols-4 lg:gap-16 lg:mt-20;
+  }
+
+  .heading-tag {
+    @apply text-lg text-uncommitted-dark-blue py-4 lg:pt-9 lg:pb-6 lg:text-xl lg:font-bold;
+  }
+
+  .item-paragraph {
+    @apply text-uncommitted-light-grayish-blue text-sm font-light lg:text-base leading-5;
+  }
+}

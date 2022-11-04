@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-gradient {
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(hsl(136, 65%, 51%)),
+      to(hsl(192, 70%, 51%))
+    );
+  }
+
+  .class-footer {
+    @apply flex flex-col justify-between lg:justify-self-start lg:col-span-3;
+  }
+
+  .footers {
+    @apply container mx-auto p-5 text-center grid grid-cols-1 justify-items-center gap-6 lg:grid-cols-12 lg:gap-0;
+  }
+
+  .footer-menu {
+    @apply grid grid-cols-1 gap-2 py-1 lg:grid-rows-3 text-uncommitted-white text-lg lg:text-left lg:justify-self-start lg:col-span-5 lg:gap-x-24 lg:grid-flow-col-dense;
+  }
+
+  .btn-classname {
+    @apply flex flex-col justify-between items-center lg:items-end lg:justify-self-end lg:col-span-4;
+  }
+}

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* hero */
+  .hero-sm {
+    @apply mt-20 mx-auto container max-w-sm md:mx-0 md:mt-24 lg:mt-40 lg:max-w-md xl:mt-40 justify-center items-center text-center lg:items-start lg:text-left;
+  }
+
+  .jumbotron {
+    @apply pb-24 flex flex-col md:px-16 md:gap-8 md:flex-row-reverse bg-very-light;
+  }
+
+  .jumbotron-picture {
+    @apply z-20 -mt-24 md:-mt-20 md:-mr-36 sm:max-w-2xl sm:mx-auto lg:-mt-10 xl:max-w-full xl:-mr-64;
+  }
+
+  .icon-desktop {
+    @apply absolute hidden sm:block sm:object-cover sm:w-full md:translate-x-80 md:-mt-12 md:max-w-3xl lg:translate-x-96 lg:-mt-32 lg:max-w-5xl xl:max-w-full xl:translate-x-[40%] xl:-mt-56;
+  }
+
+  .icon-mobile {
+    @apply absolute object-fill sm:hidden sm:w-full w-full;
+  }
+
+  .text-paragraph {
+    @apply mb-6 lg:mt-20 text-4xl lg:text-5xl  text-uncommitted-dark-blue;
+  }
+
+  .btn-invite {
+    @apply mt-6 text-uncommitted-white px-7 py-2.5 rounded-full;
+  }
+}
